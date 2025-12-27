@@ -16,7 +16,7 @@
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
-function rangeOfNumber(number){
+function rangeOfNumbers(number){
 
 
 	if (number === 0){
@@ -24,7 +24,7 @@ function rangeOfNumber(number){
 		return 0;
 	}
 
-	return number + rangeOfNumber(number -1);
+	return number + rangeOfNumbers(number -1);
 
 
 }
