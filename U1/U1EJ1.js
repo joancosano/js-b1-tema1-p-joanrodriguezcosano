@@ -67,7 +67,8 @@ let planets = [
         }
     ]
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
-planetsInfo (planet){
+
+function planetsInfo (planet){
 
 return [planet.name, planet.diameter];
 
