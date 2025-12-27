@@ -22,10 +22,15 @@
 //Do not modify this code:
 console.log(hypotenuse(3,4));
 
-//Escribe aquí tu solución / escriviu aquí la vostra solució:
+function hypotenuse (base,height){
 
+  function square(valor){
+    return valor ** 2
+  }
 
+return (square(base) + square(height)) ** 0.5;
 
+}
 
 /**
  * TEST
