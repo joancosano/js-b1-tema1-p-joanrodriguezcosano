@@ -16,7 +16,18 @@
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
+function rangeOfNumber(number){
 
+
+	if (number === 0){
+
+		return 0;
+	}
+
+	return number + rangeOfNumber(number -1);
+
+
+}
 
 
 /**
