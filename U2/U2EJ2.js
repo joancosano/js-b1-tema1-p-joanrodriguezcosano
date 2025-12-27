@@ -29,7 +29,6 @@ function rangeOfNumbers(number){
 
 }
 
-
 /**
  * TEST
  * The purpose of this code is purely for TESTING PURPOSES, 
