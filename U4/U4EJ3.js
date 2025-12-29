@@ -54,6 +54,15 @@ console.log(oldest(classroomStudents[0], classroomStudents[3])); //This will ret
 console.log(oldest(classroomStudents[2], classroomStudents[3], classroomStudents[4])); //This will return 'Ramon'
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
+function oldest(...students){
+
+  let year = students.map(st => st.yearOfBirth)
+  let oldestYear = Math.min(...year)
+
+  let oldestStudent = students.filter(st => st.yearOfBirth === oldestYear)
+
+  return oldestStudent[0].name
+}
 
 
 /**
