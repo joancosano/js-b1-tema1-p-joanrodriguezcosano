@@ -56,8 +56,6 @@ console.log(oldest(classroomStudents[2], classroomStudents[3], classroomStudents
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
 
-
-
 /**
  * TEST
  * The purpose of this code is purely for TESTING PURPOSES, 
