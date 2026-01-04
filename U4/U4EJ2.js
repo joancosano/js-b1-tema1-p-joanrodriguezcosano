@@ -32,22 +32,7 @@ console.log(evenNumbers(4,7,21,3)); //This will return [4,6,20,2]
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
- /*
- function evenNumbers (...numbers){
  
-  let numbersClon = [...numbers];
-
-  function evenTransform (num){
-        return num - (num%2)
-  }
-
-  numbersClon = numbersClon.map(evenTransform);
-  
-  return numbersClon
-}
-  
-*/
-
 function evenNumbers (...numbers){ //Aquí uso el parámetros rest
 
 let numbersClon = [...numbers]; // Aquí uso spread para clonar el array
